@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer utilities {
   .link {
     @apply font-medium text-blue-900 underline;
   }
+
+  .my-image {
+    @apply rounded-full;
+  }
+}
+
+section {
+  border: 1px solid black;
 }
